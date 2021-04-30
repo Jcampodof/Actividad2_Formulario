@@ -9,8 +9,10 @@ public class indexController {
 
 	@RequestMapping("/")
 	public String inicio(Model model) {
-//		model.addAttribute("everisName", "Jose");
-	//	model.addAttribute("everisLastName", "Campodonico");
+
+		
+		
+		
 		return "index.jsp";
 	}
 }
